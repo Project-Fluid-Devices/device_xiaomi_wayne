@@ -4,11 +4,11 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-# inherit device config for ShapeShiftOS
+# inherit device config for Project Fluid
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_wayne.mk
+    $(LOCAL_DIR)/fluid_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_wayne-eng \
-    ssos_wayne-userdebug \
-    ssos_wayne-user
+    fluid_wayne-eng \
+    fluid_wayne-userdebug \
+    fluid_wayne-user
